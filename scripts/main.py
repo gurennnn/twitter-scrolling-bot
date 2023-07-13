@@ -17,7 +17,7 @@ driver.maximize_window()
 
 # wait a bit after screen is maximized for login
 time.sleep(5)
-login(driver)
+login(driver, 'username', 'password') # change username and password for login
 
 # initialize lists
 usernames = []
